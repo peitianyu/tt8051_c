@@ -1,0 +1,30 @@
+预处理器指令
+函数
+变量
+语句 & 表达式
+注释
+
+
+struct func
+{
+    string identifier;
+    var output;
+    var input;
+    string body;
+};
+
+
+
+定义:
+var_type func_name(var_type vars) { ... }
+var_type var_name = value;
+file_name { ... }
+    自定义类型: struct enum union ... 
+执行:
+var_name = value;
+var_name = func_name(vars);
+
+1. 删除掉所有注释
+2. 删除掉所有空行
+3. 把所有行首的空格删除掉
+4. 把所有行尾的空格删除掉

@@ -1,0 +1,21 @@
+../data/test_0.tt{
+../data/aa.tt{
+int this_a_file = 0;
+}
+#define a double1
+#define single
+int a = 0;
+int b = 1;
+int add(int b, int c) {
+return b + c;
+}
+void main(void)
+{
+int b = 1;
+int c = 2;
+int d = 0;
+d = add(b, c);
+return;
+}
+}
+
